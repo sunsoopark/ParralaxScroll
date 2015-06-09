@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parralaxscroll.ParallaxMainActivity" >
+
+    <com.example.parralaxscroll.PScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/header_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/desert" />
+
+            <LinearLayout
+                android:id="@+id/contents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_green_dark"
+                    android:gravity="center"
+                    android:text="hellow world 5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_red_light"
+                    android:gravity="center"
+                    android:text="hellow world 6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_green_dark"
+                    android:gravity="center"
+                    android:text="hellow world 8" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_red_light"
+                    android:gravity="center"
+                    android:text="hellow world9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/holo_blue_bright"
+                    android:gravity="center"
+                    android:text="hellow world10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_green_dark"
+                    android:gravity="center"
+                    android:text="hellow world 11" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/holo_red_light"
+                    android:gravity="center"
+                    android:text="hellow world 12" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tab"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@android:color/holo_orange_light"
+                android:gravity="center"
+                android:layout_marginTop="150dp"
+                android:text="this is tab" />
+        </FrameLayout>
+    </com.example.parralaxscroll.PScrollView>
+
+</RelativeLayout>
